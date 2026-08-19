@@ -13,7 +13,12 @@ export const metadata: Metadata = {
   description:
     'Internal proposal operating system for creating, customizing, managing, previewing, and exporting 13-page client proposals.',
   icons: {
-    icon: '/favicon.ico'
+    icon: [
+      { url: '/favicon.ico', sizes: '32x32' },
+      { url: '/icon.png', sizes: '64x64', type: 'image/png' }
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/apple-icon.png'
   }
 };
 
